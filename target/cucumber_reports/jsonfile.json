@@ -1,0 +1,322 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 48990800800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "User can search a product and can add to virtual shopping cart",
+        "description": "",
+        "id": "customer-can-add-to-cart-and-delete-the-item-from-the-cart;user-can-search-a-product-and-can-add-to-virtual-shopping-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 713810800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 748794900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on automationPractice Homepage",
+            "match": {
+              "location": "CartStepDefinition.iAmOnAutomationPracticeHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6841237600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I search for a product\"Dresses\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dresses",
+                  "offset": 23
+                }
+              ],
+              "location": "CartStepDefinition.iSearchForAProduct(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11058006400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on product \"Printed Summer Dress\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Printed Summer Dress",
+                  "offset": 20
+                }
+              ],
+              "location": "CartStepDefinition.iClickOnProduct(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 163308300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on add to cart",
+            "match": {
+              "location": "CartStepDefinition.iClickOnAddToCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8420362100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on proceed to checkout",
+            "match": {
+              "location": "CartStepDefinition.iClickOnProceedToCheckout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 153607700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I can view\"Shopping-Cart Summary\" page header",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Shopping-Cart Summary",
+                  "offset": 11
+                }
+              ],
+              "location": "CartStepDefinition.iCanViewPageHeader(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@add"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 47460565200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "customer can delete the Product from the shopping cart",
+        "description": "",
+        "id": "customer-can-add-to-cart-and-delete-the-item-from-the-cart;customer-can-delete-the-product-from-the-shopping-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 737851200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 24270300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I am on automationPractice Homepage",
+            "match": {
+              "location": "CartStepDefinition.iAmOnAutomationPracticeHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5287241200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I search for a product\"Dresses\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dresses",
+                  "offset": 23
+                }
+              ],
+              "location": "CartStepDefinition.iSearchForAProduct(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9687262100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click on product \"Printed Summer Dress\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Printed Summer Dress",
+                  "offset": 20
+                }
+              ],
+              "location": "CartStepDefinition.iClickOnProduct(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 967902300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click on add to cart",
+            "match": {
+              "location": "CartStepDefinition.iClickOnAddToCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7351213300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click on proceed to checkout",
+            "match": {
+              "location": "CartStepDefinition.iClickOnProceedToCheckout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 142146300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I can view\"Shopping-Cart Summary\" page header",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Shopping-Cart Summary",
+                  "offset": 11
+                }
+              ],
+              "location": "CartStepDefinition.iCanViewPageHeader(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 64284300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I can view \"SHOPPING-CART SUMMARY Your shopping cart contains: 1 Product\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SHOPPING-CART SUMMARY Your shopping cart contains: 1 Product",
+                  "offset": 12
+                }
+              ],
+              "location": "CartStepDefinition.iCanViewMessage(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 124532600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I click on \"Delete\" icon",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Delete",
+                  "offset": 12
+                }
+              ],
+              "location": "CartStepDefinition.iClickOnIcon(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5164929300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "The Shopping cart is empty",
+            "match": {
+              "location": "CartStepDefinition.theShoppingCartIsEmpty()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@remove"
+          }
+        ]
+      }
+    ],
+    "name": "Customer can add to cart and delete the item from the cart",
+    "description": "",
+    "id": "customer-can-add-to-cart-and-delete-the-item-from-the-cart",
+    "keyword": "Feature",
+    "uri": "shoppingCart.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@shoppingCart"
+      }
+    ]
+  }
+]
